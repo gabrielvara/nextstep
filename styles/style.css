@@ -1,0 +1,77 @@
+
+.main-div {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5vi 5vi;
+}
+
+#menu-icon img{
+    width: 8vw;
+    height: auto;
+}
+
+#main-logo img{
+    width: 50vw;
+    height: auto;
+}
+
+#profile-img img{
+    width: 6vw;
+    height: auto;
+}
+
+.content-div{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.15em;
+    
+    margin: 8vi;
+    margin-top: 12vi;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.graphic-image {
+    margin-top: 15vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphic-image img{
+    height: auto;
+    width: 85vw;
+    border-radius: 5vi;
+}
+
+.button-div {
+    margin: 20vi;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#botao-inicial {
+    height: 9.1vh;
+    width: 65vw;
+    background-image: url("../assets/init-button.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 60vi;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
