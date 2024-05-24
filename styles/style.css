@@ -1,6 +1,6 @@
 
 .main-div {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-image: url("../assets/background.png");
     background-size: cover;
@@ -64,14 +64,27 @@
     
 }
 
-#botao-inicial {
-    height: 9.1vh;
-    width: 65vw;
-    background-image: url("../assets/init-button.png");
-    background-size: cover;
-    background-position: center;
-    background-size: 60vi;
-    border: none;
-    background-color: rgba(255, 255, 255, 0);
+.button-div img{
+    height: 68px;
+    width: 200px;
     cursor: pointer;
 }
+
+.initial-buttons {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-buttons img{
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vi;
+}
+
+
