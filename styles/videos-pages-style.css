@@ -1,12 +1,12 @@
-html {
-    width: 100vw;
-}
+
 .main-div {
     height: 120vh;
     width: 100vw;
     background-image: url("../assets/background.png");
     background-size: cover;
     background-position: top;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar-main {
@@ -54,7 +54,7 @@ html {
 
 .graphic-image img{
     height: auto;
-    width: 70vw;
+    width: 85vw;
     border-radius: 5vi;
 }
 
@@ -72,21 +72,46 @@ html {
     cursor: pointer;
 }
 
-.initial-buttons {
-    height: auto;
-    width: 100vw;
+.container-videos {
+    margin: 8vi;
+    margin-top: 12vi;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.initial-buttons img{
-    height: auto;
-    width: 80vw;
+.container-videos iframe{
+    width: 90vw;
+    height: 25vh;
+    margin-top: 2vi;
+    margin-bottom: 2vi;
+    border-radius: 10vi;
+}
+
+.second-content-div{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.15em;
+    font-size: 3.5vi;
+    margin-left: 4vi;
+    margin-right: 4vi;
     display: flex;
-    flex-direction: column;
-    margin: 2vi;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+.chose-buttons-div {
+    padding: 2vi;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.chose-buttons-div img {
+    margin-top: 8vi;
+    width: 15vw;
+}

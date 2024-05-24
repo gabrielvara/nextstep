@@ -1,8 +1,9 @@
 html {
     width: 100vw;
 }
+
 .main-div {
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
     background-image: url("../assets/background.png");
     background-size: cover;
@@ -45,48 +46,53 @@ html {
     text-align: center;
 }
 
-.graphic-image {
+.sad-img {
     margin-top: 15vi;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.graphic-image img{
-    height: auto;
-    width: 70vw;
+.sad-img img{
+    height: 30vh;
+    width: auto;
     border-radius: 5vi;
 }
 
-.button-div {
-    margin: 20vi;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.button-div img{
-    height: 68px;
-    width: 200px;
-    cursor: pointer;
-}
-
-.initial-buttons {
-    height: auto;
-    width: 100vw;
+.send-email {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 7vi;
 }
 
-.initial-buttons img{
-    height: auto;
+.send-email input{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    border: none;
+    border-radius: 4vi;
+    text-align: center;
+    width: 70vw;
+    height: 3vh;
+}
+
+.send-email img {
     width: 80vw;
-    display: flex;
-    flex-direction: column;
-    margin: 2vi;
 }
+
+.chose-buttons-div {
+    padding: 2vi;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chose-buttons-div img {
+    margin-top: 8vi;
+    width: 15vw;
+}
+
 
 
