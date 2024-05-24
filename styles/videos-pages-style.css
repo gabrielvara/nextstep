@@ -7,6 +7,7 @@
     background-position: top;
     align-items: center;
     justify-content: center;
+    
 }
 
 .navbar-main {
@@ -105,7 +106,6 @@
 }
 
 .chose-buttons-div {
-    width: 80vw;
     padding: 2vi;
     display: flex;
     flex-direction: row;
